@@ -12,8 +12,10 @@ function App() {
       <div className="top-container">
         <div className="title">
           <h1>Proof Of Concept: Excel Paste</h1>
+          <div className='tooltip' title="copy an entire table from a valid excel template table and paste in the first cell">?</div>
         </div>
         <div className="card">
+          <AgGrid />
         </div>
       </div>
     </>
